@@ -78,8 +78,8 @@ cv.namedWindow("frame",cv.WINDOW_NORMAL)
 cv.namedWindow("canny",cv.WINDOW_NORMAL)
 cv.namedWindow("dilation",cv.WINDOW_NORMAL)
 #===========================================================================================
-
-URL = "https://192.168.1.49:8080" # this url differ because it depends to network connection.
+// need to change the url.
+//URL = "https://????????????" # this url differ because it depends to network connection.
 phonecam = cv.VideoCapture(URL+"/video")
 font = cv.FONT_HERSHEY_COMPLEX
 #------temporary-----------
